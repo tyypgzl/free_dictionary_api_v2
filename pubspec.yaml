@@ -1,6 +1,6 @@
 name: free_dictionary_api_v2
 description: Package to access the https://dictionaryapi.dev
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/tyypgzl/free_dictionary_api_v2
 issue_tracker: https://github.com/tyypgzl/free_dictionary_api_v2/issues
 topics:

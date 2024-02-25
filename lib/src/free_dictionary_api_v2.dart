@@ -8,7 +8,7 @@ class FreeDictionaryApiV2 {
 
   Future<List<FreeDictionaryResponse>> getDefinition(
     String value, {
-    required String langCode,
+    String langCode = 'en',
   }) =>
       _freeDictionaryClient.getDefinition(value, langCode: langCode);
 }

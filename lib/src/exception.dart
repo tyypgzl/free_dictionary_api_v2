@@ -45,7 +45,7 @@ enum FreeDictionaryExceptionType {
   noDefinitionFound,
   rateLimit,
   unexcepted,
-  badRequest,
+  server,
   jsonParse;
 
   static FreeDictionaryExceptionType fromTitle(String? title) =>
@@ -53,7 +53,7 @@ enum FreeDictionaryExceptionType {
         'No Definitions Found' => FreeDictionaryExceptionType.noDefinitionFound,
         'API Rate Limit Exceeded' => FreeDictionaryExceptionType.rateLimit,
         'Something Went Wrong' => FreeDictionaryExceptionType.unexcepted,
-        'Upstream Server Failed' => FreeDictionaryExceptionType.badRequest,
+        'Upstream Server Failed' => FreeDictionaryExceptionType.server,
         _ => FreeDictionaryExceptionType.unexcepted,
       };
 }

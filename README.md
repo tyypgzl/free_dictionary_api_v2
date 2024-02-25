@@ -33,23 +33,16 @@ If there is an error, it throws a `FreeDictionaryException`.
   }
 ```
 
+
+
+
 ## Error Handling
 
 API throws `FreeDictionaryException` in incorrect cases.
 
-##### Types
+### Types
 
-- FreeDictionaryExceptionType.noDefinitionFound
->  Word not found. You can search for another word.
-
-- FreeDictionaryExceptionType.rateLimit
-> You can send 450 requests in 5 minutes with the same IP address.
-
-- FreeDictionaryExceptionType.server
-> An error occurred on the server. Try again later.
-
-- FreeDictionaryExceptionType.unexcepted
-> Something went wrong.
+FreeDictionaryExceptionType.noDefinitionFound
 
 
 
